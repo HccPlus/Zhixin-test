@@ -1,0 +1,626 @@
+@charset "utf-8";
+
+/* CSS Document */
+.nav {
+    width: 1004px;
+    height: 43px;
+    margin: auto;
+    background: url(../images/navbg.jpg);
+    margin-bottom: 6px;
+}
+
+.nav li {
+    float: left;
+    display: inline;
+    padding-left: 25px;
+    padding-right: 24px;
+    text-align: center;
+    background: url(../images/navline.jpg) no-repeat right center;
+}
+
+.nav li a {
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 43px;
+}
+
+#main {
+    width: 994px;
+    height: auto;
+    /*2048px*/
+    margin: 0 auto;
+    padding: 3px 3px 0px;
+    background: #fff;
+}
+
+#top {
+    width: 994px;
+    height: 291px;
+    margin-bottom: 8px;
+}
+
+/*广告图片*/
+#mid {
+    height: 90px;
+    background: url(../images/mid.png) no-repeat;
+    margin: 8px auto;
+}
+
+/*价格监测动态、分析*/
+#bottom {
+    height: 215px;
+}
+
+.modle_dl {}
+
+.modle_dl dt {
+    height: 30px;
+    line-height: 30px;
+    background: url(../images/dt_bg.png) repeat-x top center;
+}
+
+.modle_dl dt h2 {
+    height: 34px;
+    margin-left: 10px;
+    background: url(../images/dt_sel.png) no-repeat;
+    color: #fff;
+    font-size: 14px;
+    float: left;
+    display: inline;
+}
+
+.modle_dl dd {
+    padding: 4px 3px 0 7px;
+}
+
+.modle_dl ul li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    display: inline;
+}
+
+.modle_dl ul li a {
+    float: left;
+    display: inline;
+    padding-left: 12px;
+    background: url(../images/icon.png) no-repeat 3px center;
+}
+
+.modle_dl ul li .time {
+    line-height: 30px;
+    margin-right: 10px;
+}
+
+#focus {
+    width: 353px;
+    float: left;
+    display: inline;
+    margin-right: 6px;
+}
+
+#focus dt {
+    height: 30px;
+    line-height: 30px;
+    background: url(../images/dt.png) no-repeat;
+    margin-bottom: 6px;
+}
+
+#focus dt h2 {
+    width: 114px;
+    float: left;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+
+#focus dd {
+    widht: 345px;
+    height: 249px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+#focus img {
+    widht: 343px;
+    height: 220px;
+}
+
+/*价格走势*/
+#news {
+    width: 394px;
+    float: left;
+    display: inline;
+}
+
+#news dt {
+    width: 394px;
+    height: 30px;
+    line-height: 30px;
+    background: url(../images/jgzs.png) no-repeat;
+}
+
+#news dt h2 {
+    width: 112px;
+    text-align: center;
+    float: left;
+    display: inline;
+    color: #fff;
+    font-size: 14px;
+}
+
+#news dd {
+    widht: 388px;
+    height: 249px;
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 6px auto 0;
+}
+
+#news img {
+    widht: 388px;
+    height: 220px;
+}
+
+/*#news dd{
+	width:384px;
+	padding:0 5px;
+	margin:0 auto;
+}
+#news dd.img{
+	width:384px;
+	height:217px;
+}
+#news dd.img img{
+	width:364px;
+	height:215px;
+	text-align:center;}
+#news .title{
+	height:35px;
+	line-height:35px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}*/
+
+
+/*价格动态*/
+#top_right {
+    width: 235px;
+    height: 291px;
+    background: url(../images/jgdt.png) no-repeat;
+    float: right;
+    display: inline;
+}
+
+#top_right dt,
+#top_right dt h2 {
+    background: none;
+}
+
+#top_right dt {
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 2px;
+}
+
+#top_right dt h2 {
+    width: 125px;
+}
+
+#top_right dt .more {
+    line-height: 30px;
+    color: #fff;
+}
+
+#top_right dd {
+    height: 252px;
+}
+
+#top_right dd ul li {
+    width: 225px;
+    height: 31px;
+    line-height: 31px;
+}
+
+#top_right dd ul li a {
+    background: url(../images/icon1.png) no-repeat 3px center;
+}
+
+/*近期价格、价格分析*/
+#mod1,
+#mod2 {
+    width: 493px;
+    float: left;
+    display: inline;
+}
+
+#mod1 dt h2,
+#mod2 dt h2,
+#cjsc dt h2 {
+    width: 119px;
+    text-align: center;
+}
+
+#mod2 {
+    float: right;
+}
+
+#mod1 ul li,
+#mod2 ul li {
+    width: 483px;
+}
+
+/*采价市场*/
+/*#cjsc{
+	width:994px;
+	height:185px;
+	height:108px;
+}
+#cjsc dd{
+	width:974px;
+	height:143px;
+	padding:8px 10px 0;
+	height:66px;
+}
+#cjsc dd ul li{
+	width:156px;
+	height:143px;
+	text-align:center;
+	margin-right:10px;
+	width:212px;
+	height:57px;
+}
+#cjsc dd ul li a{
+	padding:0;
+	background:none;
+	cursor:pointer;
+}
+#cjsc dd ul li img{
+	width:150px;
+	height:110px;
+	border:1px solid #ccc;
+	padding:2px;
+	width:206px;
+	height:51px;
+}
+#cjsc dd ul li h2{
+	height:25px;
+	line-height:25px;
+	font-size:12px;
+}
+*/
+/*检测单位报价*/
+#dwbj {
+    width: 992px;
+    height: 116px;
+    line-height: 30px;
+    /*background:url(../images/dw.jpg) no-repeat;*/
+    margin-bottom: 10px;
+}
+
+#fldh {
+    margin-bottom: 10px;
+    float: left;
+    width: 1000px;
+    height: 102px;
+    overflow: hidden;
+}
+
+#fldh a.fl {
+    float: left;
+    width: 168px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    background: url(../images/fl.png);
+    margin-left: 25px;
+    margin-bottom: 10px;
+    color: #c00;
+}
+
+#fldh a.fl:hover {
+    background: url(../images/flH.png);
+    font-weight: bold;
+    color: #076CBA;
+}
+
+#fldh a.l2 {
+    background-position: -168px 0;
+}
+
+#fldh a.l3 {
+    background-position: -336px 0;
+}
+
+#fldh a.l4 {
+    background-position: -504px 0;
+}
+
+#fldh a.l5 {
+    background-position: -672px 0;
+}
+
+#fldh a.l6 {
+    background-position: 0 -46px;
+}
+
+#fldh a.l7 {
+    background-position: -168px -46px;
+}
+
+#fldh a.l8 {
+    background-position: -336px -46px;
+}
+
+#fldh a.l9 {
+    background-position: -504px -46px;
+}
+
+#fldh a.l10 {
+    background-position: -672px -46px;
+}
+
+#dwbj h2 {
+    width: 172px;
+    text-align: center;
+    float: left;
+    display: inline;
+    color: #fff;
+    font-size: 16px;
+}
+
+#dwbj .more {
+    margin-top: 3px;
+}
+
+#dw {
+    margin: 0 auto 8px;
+}
+
+dl.right {
+    float: right;
+    margin-right: 0;
+}
+
+/*各市场的公共样式*/
+.modle {
+    width: 325px;
+    height: 181px;
+    background: url(../images/modle.png) no-repeat;
+    margin-bottom: 8px;
+    float: left;
+    display: inline;
+    margin-right: 8px;
+}
+
+.modle dt {
+    height: 30px;
+    line-height: 30px;
+}
+
+.modle dt h2 {
+    width: 148px;
+    text-align: center;
+    float: left;
+    display: inline;
+    color: #fff;
+    font-size: 14px;
+}
+
+.modle dd {
+    width: 96%;
+    margin: auto;
+}
+
+.modle dd ul li {
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    display: inline;
+}
+
+.modle dd ul li a {
+    padding-left: 13px;
+    background: url(../images/icon3.png) no-repeat 3px center;
+    float: left;
+}
+
+.modle dd ul li .time {
+    height: 30px;
+    line-height: 30px;
+}
+
+#ty {
+    position: relative;
+}
+
+#xs {
+    position: absolute;
+    left: 250px;
+    top: 50px;
+}
+
+@charset "utf-8";
+
+/* CSS Document */
+.weixin {
+    position: fixed;
+    display: block;
+    top: 192px;
+    width: 110px;
+    height: 165px;
+    z-index: 1000;
+    left: 50%;
+    margin-left: 505px;
+    _position: absolute;
+    _margin-top: 160px;
+    _top: expression(documentElement.scrollTop+(documentElement.clientHeight-this.offsetHeight)/2)
+}
+
+.weixin .logop {
+    display: block;
+    width: 110px;
+    height: 370px;
+    background: #efeff1;
+    border: 1px solid #d2d2d2;
+    margin: 0px;
+    margin-bottom: 2px;
+    position: relative;
+    padding: 5px;
+}
+
+.weixin .logop a {
+    line-height: 26px;
+    width: 105px;
+    height: 26px;
+    float: left;
+    background: url(../images/ksdh.png);
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+.weixin .logop a:hover {
+    background: url(../images/ksdhH.png);
+}
+
+.weixin .close {
+    text-align: right;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+.dhTou {
+    width: 122px;
+    height: 45px;
+    background: url(../images/dhTou.png);
+}
+
+/*检测单位报价*/
+.danwei {
+    width: 993px;
+    height: 491px;
+    background: url(../images/dwbj.jpg);
+}
+
+.danwei dt {
+    width: 100%;
+    height: 51px;
+}
+
+.danwei dd {
+    float: left;
+    display: inline;
+    margin-right: 28px;
+    margin-bottom: 14px;
+}
+
+.danwei dd.first {
+    margin-left: 8px;
+}
+
+.danwei dd.last {
+    margin-right: 0px;
+}
+
+.danwei dd a {
+    width: 174px;
+    height: 132px;
+    background: url(../images/pro_bg.jpg);
+    display: block;
+    overflow: hidden;
+}
+
+.danwei dd.last a {
+    background: url(../images/pro_bg2.jpg);
+}
+
+.danwei dd a:hover {
+    width: 170px;
+    height: 128px;
+    border: 2px dashed #0C70BE;
+}
+
+.danwei dd div {
+    width: 157px;
+    height: 99px;
+    display: block;
+    margin-left: 3px;
+    margin-top: 3px;
+    background: url(../images/product.jpg);
+}
+
+.danwei dd h2 {
+    line-height: 28px;
+    margin-top: 3px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.danwei dd div.num1 {
+    background-position: 0px 0px;
+}
+
+.danwei dd div.num2 {
+    background-position: -157px 0px;
+}
+
+.danwei dd div.num3 {
+    background-position: -314px 0px;
+}
+
+.danwei dd div.num4 {
+    background-position: -471px 0px;
+}
+
+.danwei dd div.num5 {
+    background-position: -628px 0px;
+}
+
+.danwei dd div.num6 {
+    background-position: 0px -99px;
+}
+
+.danwei dd div.num7 {
+    background-position: -157px -99px;
+}
+
+.danwei dd div.num8 {
+    background-position: -314px -99px;
+}
+
+.danwei dd div.num9 {
+    background-position: -471px -99px;
+}
+
+.danwei dd div.num10 {
+    background-position: -628px -99px;
+}
+
+.danwei dd div.num11 {
+    background-position: 0px -198px;
+}
+
+.danwei dd div.num12 {
+    background-position: -157px -198px;
+}
+
+.danwei dd div.num13 {
+    background-position: -314px -198px;
+}
+
+.danwei dd div.num14 {
+    background-position: -471px -198px;
+}
+
+.danwei dd div.num15 {
+    background-position: -628px -198px;
+}
+
+·
