@@ -5,7 +5,7 @@
   font-weight: 400;
 
   color: rgba(32, 32, 32, 0.87);
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,7 +17,7 @@ body {
   align-items: middle;
   width: fit-content;
   min-height: 100vh;
-  background-color: #d0ffff;
+  background-color: #f5fffb;
 }
 
 h1 {
@@ -40,9 +40,9 @@ p {
 
 button {
   padding: 0 0.5em;
-  margin: 0.32em;
+  margin: 0.4em;
   border: 0.1em solid rgba(0, 0, 0, 0);
-  border-radius: 0.5em;
+  border-radius: 1em;
   background-color: #f0f0f0;
   transition-property: border-color, background-color;
   transition-duration: 0.5s, 0.5s;
@@ -62,15 +62,15 @@ button:hover {
 }
 
 #top {
-  background-color: #c5c5c5;
+  background-color: #f0f0f0;
   display: flex;
   margin: 0 auto;
   height: 2em;
-  width: 80em;
+  width: 72em;
 }
 
 #tab {
-  background-color: #beebff;
+  background-color: #fbfff4;
   height: 8em;
   display: grid;
   place-items: center;
@@ -86,39 +86,37 @@ button:hover {
 }
 
 #nav li {
-  float: left;
-  display: inline;
-  background-color: #c6dae2;
-  padding-left: 1em;
-  padding-right: 1em;
-  border: 0.1em solid rgba(0, 0, 0, 0);
-  border-radius: 1em;
-  margin: 0 0.4em;
-  text-align: center;
-  transition-property: border-color, background-color;
-  transition-duration: 0.5s, 0.5s;
-}
-
-#nav li:hover {
-  border-color: #163248;
-  background-color: #ffffff;
+  list-style: none;
 }
 
 #nav li a {
   font-size: 1.2em;
+  background-color: #fbfff4;
+  margin: 0 0.5em;
+  border: 0.1em solid #f0f0f0;
+  border-radius: 1em;
+  padding: 0.1em 0.8em;
   color: #202020;
   text-decoration: none;
+  transition-property: background-color, border-color;
+  transition-duration: 0.5s, 0.5s;
+}
+
+#nav li a:hover {
+  background-color: #ffffff;
+  border-color: #202020;
 }
 
 /*以下为内容样式*/
 
 #content {
   margin: 0;
+  display: flex;
 }
 
 .block {
   background-color: white;
-  display: block;
+  min-width: 16em;
   margin: 1em;
   border: 0.1em solid #a0a0a0;
   border-radius: 1.2em;
@@ -139,7 +137,7 @@ button:hover {
 }
 
 .tab {
-  background-color: #ffe0c0;
+  background-color: #ecf4ff;
   display: inline-block;
   border-radius: 0.4em;
   padding: 0.2em 0.5em;
@@ -150,7 +148,7 @@ button:hover {
   color: black;
   text-decoration: none;
   float: right;
-  margin-left: 1.2em;
+  margin-left: 8em;
   padding: 0 0.5em;
   font-size: 0.8em;
   border: 0.1em solid rgba(0, 0, 0, 0);
@@ -165,6 +163,8 @@ button:hover {
 
 .list {
   background-color: #f8f8f8;
+  min-width: 10em;
+  margin: 0 auto;
   border: 0.05em solid #163248;
   border-radius: 1em;
   padding: 0 0.6em 0;
@@ -172,18 +172,22 @@ button:hover {
 
 .list li {
   list-style: none;
-  margin: 0.5em 0;
-  border-radius: 2em;
-  padding: 0.5em;
-  transition-property: background-color;
-  transition-duration: 0.5s;
-}
-
-.list li:hover {
-  background-color: #e8e8ff;
+  text-align: center;
 }
 
 .list li a {
   color: #202020;
   text-decoration: none;
+  text-align: center;
+  display: block;
+  margin: 0.2em 0;
+  border: 0.1em solid #f8f8f8;
+  border-radius: 2em;
+  padding: 0.4em;
+  transition-property: border-color;
+  transition-duration: 0.5s;
+}
+
+.list li a:hover {
+  border-color: #202020;
 }

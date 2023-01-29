@@ -1,0 +1,10 @@
+@media screen and (max-width: 720px) {
+    body {
+        margin: auto;
+        display: flex;
+        align-items: middle;
+        width: fit-content;
+        min-height: 100vh;
+        background-color: #00ff99;
+    }
+}
