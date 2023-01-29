@@ -4,7 +4,7 @@ import HelloWorld from './components/HelloWorld.vue'
 
 <template>
   <div id="top">
-    <button>登录</button>
+    <button onclick="window.location.href='../../src/Login/index.html'">登录</button>
     <div class="divide">|</div>
     <button>注册</button>
   </div>
