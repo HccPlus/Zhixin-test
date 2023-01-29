@@ -6,7 +6,7 @@ import HelloWorld from './components/HelloWorld.vue'
   <div id="top">
     <button onclick="window.location.href='../../src/Login/index.html'">登录</button>
     <div class="divide">|</div>
-    <button>注册</button>
+    <button onclick="window.location.href='../../src/Signup/index.html'">注册</button>
   </div>
   <div id="tab">
     <h1>测试页面</h1>

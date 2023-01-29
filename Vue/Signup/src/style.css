@@ -1,0 +1,158 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color: rgba(32, 32, 32, 0.87);
+  background-color: #ffffff;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: auto;
+  display: flex;
+  align-items: middle;
+  width: fit-content;
+  min-height: 100vh;
+  background-color: #f5fffb;
+}
+
+h1 {
+  font-size: 3.2em;
+  margin: 0.4em;
+}
+
+h2 {
+  font-size: 1.6em;
+  margin: 0.4em;
+}
+
+hr {
+  border: 0.08em solid #808080;
+}
+
+p {
+  margin: 0;
+}
+
+.divide {
+  padding: 0;
+  margin: 0.16em;
+  background-color: rgba(0, 0, 0, 0);
+  border-color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+
+#top {
+  background-color: #f0f0f0;
+  display: flex;
+  margin: 0 auto;
+  height: 2em;
+  width: 72em;
+}
+
+#tab {
+  background-color: #fbfff4;
+  height: 8em;
+  display: grid;
+  place-items: center;
+  margin: 0 auto;
+}
+
+#nav {
+  display: flex;
+  background-color: #f0f0f0;
+  height: 2.4em;
+  place-items: center;
+  margin: 0 auto;
+}
+
+#nav li {
+  list-style: none;
+}
+
+#nav li a {
+  font-size: 1.2em;
+  background-color: #fbfff4;
+  margin: 0 0.5em;
+  border: 0.1em solid #f0f0f0;
+  border-radius: 1em;
+  padding: 0.1em 0.8em;
+  color: #202020;
+  text-decoration: none;
+  transition-property: background-color, border-color;
+  transition-duration: 0.5s, 0.5s;
+}
+
+#nav li a:hover {
+  background-color: #ffffff;
+  border-color: #202020;
+}
+
+/*以下为内容样式*/
+
+#content {
+  margin: 0;
+  padding: auto;
+  display: flex;
+  place-content: center;
+}
+
+.block {
+  background-color: white;
+  text-align: center;
+  min-width: 24em;
+  margin: 1em;
+  margin-top: 4em;
+  border: 0.1em solid #a0a0a0;
+  border-radius: 1.2em;
+  padding: 1.6em;
+  transition-property: border-color, margin, background-color;
+  transition-duration: 0.5s, 0.5s, 0.5s;
+}
+
+.block:hover {
+  background-color: #fdffdc;
+  border-color: #163248;
+  margin: 3.8em 1.2em 1.2em 0.8em;
+}
+
+label {
+  color: #202020;
+  font-size: 1.2em;
+}
+
+input {
+  margin: 1em 0;
+  height: 2em;
+  border: 0.1em solid #848c91;
+  border-radius: 2em;
+  padding: 0 1em;
+  font-size: 1.2em;
+  transition-property: border-color, background-color;
+  transition-duration: 0.5s, 0.5s;
+}
+
+input:hover {
+  border-color: #163248;
+  background-color: #f6ffff;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 0.5em 1em;
+  margin: 1em 0 0;
+  border: 0.1em solid rgba(0, 0, 0, 0);
+  border-radius: 2em;
+  background-color: #f0f0f0;
+  transition-property: border-color, background-color;
+  transition-duration: 0.5s, 0.5s;
+}
+
+button:hover {
+  border-color: #163248;
+  background-color: #ffffff;
+}
